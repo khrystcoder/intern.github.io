@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-align: center;
+}
+
+#container {
+    background-image: linear-gradient(rgba(0,0,0,0.5),#009688),url(/images/Act-1_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding-top: 30px;
+}
+
+.welcome-text {
+    margin: auto;
+    width: 300px;
+    padding: 15px 15px;
+    border: 1px solid #009688;
+    border-radius: 10px;
+
+    /* width: 300px;
+    margin: auto;
+    border: 1px solid red; */
+
+}
+.welcome-text p {
+    padding-top: 10px;
+}
+
+.orderedlist {
+    margin: 10%;
+    width: auto;
+    padding: 15px 15px;
+    border: 1px solid #009688;
+    border-radius: 10px;
+    
+}
+.orderedlist ol {
+    padding-top: 10px;
+}
+.unorderedlist {
+    margin: 10%;
+    width: auto;
+    padding: 15px 15px;
+    border: 1px solid #009688;
+    border-radius: 10px;
+}
+.unorderedlist ul {
+    padding-top: 10px;
+}
+
+.image {
+    flex-basis: 50%;
+    margin: auto;
+    padding-top: 30px;
+}
+.image img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+/* HYPERLINK */
+
+.hyperlink {
+    font-size: 15px;
+    margin: 10%;
+    padding: 15px 15px;
+    border: 1px solid #009688;
+    border-radius: 10px;
+}
+a:link, a :visited {
+    background-color: #009688;
+    color: #fff;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: red;
+}
+
+/* TABLE */
+
+.table {
+    margin: 10%;
+    padding: 15px 15px;
+    border: 1px solid #009688;
+    border-radius: 10px;   
+}
+
+th, td {
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
+.table-info {
+    width: 70%;
+    margin: auto;
+}
+th {
+    height: 70px; 
+    background-color: #009688;
+}
+td {
+    height: 40px;
+}
+tr:hover {
+    background-color: #009688;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    padding: 50px 0 20px;
+}
+.footer p {
+    font-size: 15px;
+}
